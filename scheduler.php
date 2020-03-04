@@ -110,11 +110,11 @@
                                            <div class="col-md-3">
                                              <div class="sidenav">
                                                <a href="scheduler.php">Scheduler</a>
-                                               <a href="#WatchList">WatchList</a>
-                                               <a href="#Bidding">Bidding</a>
-                                               <a href="#BulkActions">BulkActions</a>
-                                                 <a href="#Reports">Reports</a>
-                                                   <a href="#Logs">Logs</a>
+                                               <a href="Watchlist.php">WatchList</a>
+                                               <a href="Bidding.php">Bidding</a>
+                                               <a href="Bulk_Actions.php">BulkActions</a>
+                                                 <a href="Reports.php">Reports</a>
+                                                   <a href="Logs.php">Logs</a>
                                              </div>
 
                                            </div>
