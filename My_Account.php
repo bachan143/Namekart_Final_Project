@@ -119,6 +119,85 @@
 
                                            </div>
                                            <div class="col-md-9">
+                                             <h1>MyAccount Detalis</h1>
+                                                <div class="row">
+                                                  <div class="col-md-12">
+                                                    <button type="button" name="button" class="btn btn-primary btn-lg  w-25">
+                                                      <a href="#" style="color:white;text-decoration:none;">Manage User</a>
+                                                    </button>
+                                                    <button type="button" name="button" class="btn btn-success btn-lg  w-25">
+                                                      <a href="#" style="color:white;text-decoration:none;">Add new</a>
+                                                    </button>
+
+
+                                                  </div>
+
+
+                                                </div>
+                                              <div class="row mt-5">
+                                                <div class="col-md-12">
+                                                  <table class="table table-dark">
+                                                           <thead>
+                                                             <tr>
+                                                               <th scope="col">#</th>
+                                                               <th scope="col">Email</th>
+                                                               <th scope="col">Password</th>
+                                                               <th scope="col">Role</th>
+                                                                <th scope="col">Update</th>
+                                                                <th scope="col">Edit</th>
+
+                                                             </tr>
+                                                           </thead>
+                                                           <tbody>
+                                                             <tr>
+                                                               <th scope="row"></th>
+                                                               <td></td>
+                                                               <td></td>
+                                                               <td></td>
+                                                             </tr>
+
+                                                           </tbody>
+                                                          </table>
+
+
+                                                </div>
+
+                                              </div>
+
+
+
+                                              <div class="row">
+                                                <div class="col-md-12">
+                                                  <h1 style="text-align:center;color:red;">Change Detalis</h1>
+                                                  <form class="" action="#" method="post">
+                                                    <div class="form-group">
+                                                      <label for="">Name:</label>
+                                                      <input type="text" name="" value="" class="form-control w-50">
+
+                                                    </div>
+                                                    <div class="form-group">
+                                                      <label for="">Email:</label>
+                                                      <input type="text" name="" value="" class="form-control w-50">
+
+                                                    </div>
+                                                    <div class="form-group">
+                                                      <label for="">Primary Password</label>
+                                                      <input type="text" name="" value="" class="form-control w-50">
+
+                                                    </div>
+                                                    <div class="form-group">
+                                                      <label for="">Secondary Password</label>
+                                                      <input type="text" name="" value="" class="form-control w-50">
+
+                                                    </div>
+                                                    <button type="button" name="button" class="btn btn-primary btn-lg w-50 btn-block">Submit</button>
+
+                                                  </form>
+
+                                                </div>
+
+                                              </div>
+
 
 
                                            </div>

@@ -70,7 +70,7 @@
                                                </li>
 
                                                <li class="nav-item">
-                                                 <a href="MyAccount.php" class="nav-link">My Account</a>
+                                                 <a href="My_Account.php" class="nav-link">My Account</a>
                                                </li>
 
 
@@ -112,9 +112,9 @@
                                                <a href="scheduler.php">Scheduler</a>
                                                <a href="#WatchList">WatchList</a>
                                                <a href="#Bidding">Bidding</a>
-                                               <a href="#BulkActions">BulkActions</a>
-                                                 <a href="#Reports">Reports</a>
-                                                   <a href="#Logs">Logs</a>
+                                               <a href="Bulk_Actions.php">BulkActions</a>
+                                                 <a href="Reports.php">Reports</a>
+                                                   <a href="Logs.php">Logs</a>
                                              </div>
 
                                            </div>
@@ -161,16 +161,39 @@
                                                       <div class="col-m-12"  id="platform-setting1">
                                                          <form class="" action="#" method="post">
                                                            <div class="form-group">
-                                                             <label class="mr-sm-2" for="inlineFormCustomSelect">Choose Platform:</label><br/>
-                                                             <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                                                             <label class="mr-sm-2" for="inlineFormCustomSelect">Domain per Page</label><br/>
+                                                             <select class="custom-select mr-sm-2 w-50"  id="inlineFormCustomSelect">
                                                                <option selected>Choose...</option>
-                                                               <option value="1">GoDaddy</option>
-                                                               <option value="2">Namejet</option>
-                                                               <option value="3">SnapNames</option>
-                                                               <option value="4">DropCatch</option>
-                                                               <option value="5">Dynadot</option>
+                                                               <option value="1">25</option>
+                                                               <option value="2">50</option>
+                                                               <option value="3">100</option>
+                                                               <option value="4">200</option>
+
                                                              </select>
                                                            </div>
+                                                             <button type="button" name="button" class="btn btn-primary btn-lg btn-block w-50">Save Change</button>
+
+
+
+                                                         </form>
+
+                                                      </div>
+
+                                                  </div>
+                                                  <div class="row">
+                                                     <h3>Time Stamp Format</h3>
+                                                      <div class="col-m-12"  id="platform-setting1">
+                                                         <form class="" action="#" method="post">
+                                                           <div class="form-group">
+                                                             <label class="radio-inline">
+                                                              <input type="radio" name="optradio" checked>dd/hh/mm
+                                                            </label>
+                                                            <label class="radio-inline">
+                                                              <input type="radio" name="optradio" style="font-size:20px;">mm/dd/yy 00:00:00 PM
+                                                            </label>
+
+                                                           </div>
+                                                             <button type="button" name="button" class="btn btn-primary btn-lg btn-block w-50">Save Change</button>
 
 
 

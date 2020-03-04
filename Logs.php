@@ -119,6 +119,20 @@
 
                                            </div>
                                            <div class="col-md-9">
+                                              <h2>Activity Logs</h2>
+                                                <div class="row" id="activity-log">
+                                                   <div class="col-md-12">
+                                                     <form class="" action="" method="post">
+                                                       <p>BackOrder Placed on Domain <input type="text"></input>at<input type="text"></input></p>
+                                                        <p>Bid Placed on Domain <input type="text"></input>at<input type="text"></input></p>
+                                                        <button type="button" name="button" class="btn btn-primary btn-lg btn-block w-50">Submit</button>
+
+
+                                                     </form>
+
+                                                   </div>
+
+                                                </div>
 
 
                                            </div>

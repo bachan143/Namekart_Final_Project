@@ -78,7 +78,7 @@
                                            </li>
 
                                            <li class="nav-item">
-                                             <a href="MyAccount.php" class="nav-link">My Account</a>
+                                             <a href="My_Account.php" class="nav-link">My Account</a>
                                            </li>
 
 
@@ -120,9 +120,9 @@
                                            <a href="scheduler.php">Scheduler</a>
                                            <a href="#WatchList">WatchList</a>
                                            <a href="#Bidding">Bidding</a>
-                                           <a href="#BulkActions">BulkActions</a>
-                                             <a href="#Reports">Reports</a>
-                                               <a href="#Logs">Logs</a>
+                                           <a href="Bulk_Actions.php">BulkActions</a>
+                                             <a href="Reports.php">Reports</a>
+                                               <a href="Logs.php">Logs</a>
                                          </div>
 
                                        </div>

@@ -78,7 +78,7 @@
                                            </li>
 
                                            <li class="nav-item">
-                                             <a href="MyAccount.php" class="nav-link">My Account</a>
+                                             <a href="My_Account.php" class="nav-link">My Account</a>
                                            </li>
 
 
@@ -120,112 +120,58 @@
                                            <a href="scheduler.php">Scheduler</a>
                                            <a href="#WatchList">WatchList</a>
                                            <a href="#Bidding">Bidding</a>
-                                           <a href="Bulk_Actions.WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU">BulkActions</a>
+                                           <a href="Bulk_Actions.php">BulkActions</a>
                                              <a href="Reports.php">Reports</a>
                                                <a href="Logs.php">Logs</a>
                                          </div>
 
                                        </div>
                                        <div class="col-md-9">
-                                                <h3>My Auctions</h3>
-                                          <div class="row">
-                                              <div class="col-md-12">
-                                                <ul class="nav nav-tabs" id="myTab" role="tablist">
-                                                    <li class="nav-item">
-                                                      <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">ViewAll</a>
-                                                    </li>
-                                                    <li class="nav-item">
-                                                      <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Today Only</a>
-                                                    </li>
-
-                                                  </ul>
-
-                                              </div>
-                                              <div  id="" style="height:50px;border:1px solid  #33cc33; background:#009900; width:98%;">
+                                           <h2>Reports Detalis</h2>
+                                           <div class="mainpart_table">
+                                              <div class="container">
+                                                 <div class="row justify-content center">
+                                                    <div class="col-sm-12 bg-light rounded my-2 py-2 table-responsive">
 
 
-                                                <p class="pt-3 pl-3"><a href="#"  style="border:1px solid #6666ff;background:#6666ff; color:white;font-weight: bold;">Bid on Selected</a></p>
-
-                                              </div>
-
-
-                                              <div class="mainpart_table">
-                                                 <div class="container">
-                                                    <div class="row justify-content center">
-                                                       <div class="col-sm-12 bg-light rounded my-2 py-2 table-responsive">
+                                                          <table class="table table-bordered table-striped table-hover table-sm" id="example1">
+                                                          <thead id="table_anchor">
+                                                            <tr >
+                                                              <th></th>
 
 
-                                                             <table class="table table-bordered table-striped table-hover table-sm" id="example1">
-                                                             <thead id="table_anchor">
-                                                               <tr >
-                                                                 <th></th>
-                                                                 <th>   <a href="#">Platform</a></th>
-
-                                                                 <th>   <a href="#">Domain</a></th>
-                                                                 <th>  <a href="#">Type</a></th>
-                                                                 <th> <a href="#">   Bidders</a> </th>
-                                                                 <th>  <a href="#">TimeLeft</a></th>
-                                                                 <th> <a href="#">High Bid</a</th>
-                                                                 <th> <a href="#">My Prst.Bid</a></th>
-
-                                                               </tr>
-                                                             </thead>
-                                                                <tbody>
-
-                                                                   <tr id="table_anchor1">
-                                                                      <td></td>
-                                                                      <td>  </td>
-                                                                      <td>  </td>
-                                                                      <td> </td>
-                                                                      <td> </td>
-                                                                      <td> </td>
-                                                                      <td> </td>
-                                                                      <td> </td>
-
-                                                                   </tr>
-
-                                                                </tbody>
-
-                                                             </table>
-                                                       </div>
+                                                              <th>   <a href="#">Domain</a></th>
+                                                              <th>  <a href="#">Action</a></th>
+                                                              <th> <a href="#">Output</a> </th>
+                                                              <th>  <a href="#">Last Update Time</a></th>
 
 
+                                                            </tr>
+                                                          </thead>
+                                                             <tbody>
 
+                                                                <tr id="table_anchor1">
+                                                                   <td></td>
+                                                                   <td>  </td>
+                                                                   <td>  </td>
+                                                                   <td> </td>
+                                                                   <td> </td>
+                                                                   
+
+                                                                </tr>
+
+                                                             </tbody>
+
+                                                          </table>
                                                     </div>
+
+
 
                                                  </div>
 
-                                   </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                              <div  id="" style="height:50px;border:1px solid  #33cc33; background:#009900; width:98%;">
-
-
-                                                <p class="pt-3 pl-3"><a href="#"  style="border:1px solid #6666ff;background:#6666ff; color:white;font-weight: bold;">Bid on Selected</a></p>
-
                                               </div>
 
-                                          </div>
+                                </div>
 
 
                                        </div>
@@ -282,6 +228,7 @@
 
     </div>
     </div>
+
 
 
 

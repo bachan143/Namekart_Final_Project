@@ -47,11 +47,11 @@
                                          <a href="Backorder.php" class="nav-link ">Backorders</a>
                                        </li>
                                        <li class="nav-item">
-                                         <a href="Download.php" class="nav-link">Settings</a>
+                                         <a href="Settings.php" class="nav-link">Settings</a>
                                        </li>
 
                                        <li class="nav-item">
-                                         <a href="MyAccount.php" class="nav-link">My Account</a>
+                                         <a href="My_Account.php" class="nav-link">My Account</a>
                                        </li>
 
 
@@ -93,96 +93,14 @@
                                        <a href="scheduler.php">Scheduler</a>
                                        <a href="#WatchList">WatchList</a>
                                        <a href="#Bidding">Bidding</a>
-                                       <a href="#BulkActions">BulkActions</a>
-                                         <a href="#Reports">Reports</a>
-                                           <a href="#Logs">Logs</a>
+                                       <a href="Bulk_Actions.php">BulkActions</a>
+                                         <a href="Reports.php">Reports</a>
+                                           <a href="Logs.php">Logs</a>
                                      </div>
 
                                    </div>
                                    <div class="col-md-9">
-                                       <h2>My Backorders</h2>
-                                       <div class="row">
-                                           <div class="col-md-12">
-                                               <div class="quick-backorder" id="quick-backorder" style="width:100%;
-                                               height:200px;
-                                               background:#008000;
-                                               border: 1px solid #008000;
-                                               color: white;">
-                                                <h3 class="mt-3 pl-3">Quick Backorder</h3>
-                                                  <form class="pl-5" action="#" method="post">
-                                                    <div class="formgroup">
-                                                      <input type="text" name="" value="" class="form-control w-50 " placeholder="Domain Name" >
-                                                      <input type="text" name="" value="" class="form-control w-25 mt-1" placeholder="Optional Bid" >
-                                                        <button class="btn btn-primary mt-1" type="submit">Order</button>
-
-                                                    </div>
-
-
-                                                  </form>
-
-                                               </div>
-
-
-                                           </div>
-
-                                       </div>
-                                       <div  id="" style="height:50px;border:1px solid  #33cc33; background:#009900; width:98%; margin-top:10px;">
-
-
-                                         <p class="pt-3 pl-3"><a href="#"  style="border:1px solid #6666ff;background:#6666ff; color:white;font-weight: bold;">Bid on Selected</a></p>
-
-                                       </div>
-                                       <div class="container">
-                                          <div class="row justify-content center">
-                                             <div class="col-sm-12 bg-light rounded my-2 py-2 table-responsive">
-
-
-                                                   <table class="table table-bordered table-striped table-hover table-sm" id="example1">
-                                                   <thead id="table_anchor">
-                                                     <tr >
-                                                       <th></th>
-                                                       <th>   <a href="#">Domain</a></th>
-                                                       <th>   <a href="#">Platform(GNSHD)</a></th>
-
-
-
-                                                       <th> <a href="#">   Bidders</a> </th>
-                                                       <th>  <a href="#">Deadline</a></th>
-
-
-                                                     </tr>
-                                                   </thead>
-                                                      <tbody>
-
-                                                         <tr id="table_anchor1">
-                                                            <td></td>
-                                                            <td>  </td>
-                                                            <td>  </td>
-                                                            <td> </td>
-                                                            <td> </td>
-                                                            <td> </td>
-
-
-                                                         </tr>
-
-                                                      </tbody>
-
-                                                   </table>
-                                             </div>
-
-
-
-                                          </div>
-
-                                       </div>
-
-                                       <div  id="" style="height:50px;border:1px solid  #33cc33; background:#009900; width:98%; margin-top:10px;">
-
-
-                                         <p class="pt-3 pl-3"><a href="#"  style="border:1px solid #6666ff;background:#6666ff; color:white;font-weight: bold;">Bid on Selected</a></p>
-
-                                       </div>
-
+                                       <h2>Reports Detalis</h2>
 
 
                                    </div>
@@ -239,13 +157,3 @@
 
 </div>
 </div>
-<script type="text/javascript">
-    $(document).ready(function()
-    {
-    var table=$('#example1').DataTable(
-        {
-
-        });
-    });
-
-</script>

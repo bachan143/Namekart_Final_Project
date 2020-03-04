@@ -119,6 +119,44 @@
 
                                            </div>
                                            <div class="col-md-9">
+                                             <h2>Bulk Actions</h2>
+                                              <div class="row" id="bulk_action">
+                                                <div class="col-md-12">
+                                                   <form class="" action="#" method="post">
+                                                     <div class="form-group">
+                                                       <label class="mr-sm-2" for="inlineFormCustomSelect">Bulk Option:</label><br/>
+                                                       <select class="custom-select mr-sm-2 w-50" id="inlineFormCustomSelect">
+                                                         <option selected>Choose...</option>
+                                                         <option value="1">Add Bulk</option>
+                                                         <option value="2">Delete Bulk</option>
+                                                         <option value="3">Add Bids</option>
+                                                         <option value="4">Delete Bids</option>
+
+                                                       </select>
+                                                     </div>
+                                                     <div class="form-group">
+                                                       <label class="mr-sm-2" for="inlineFormCustomSelect">Enter List:</label><br/>
+
+                                                     </div>
+                                                     <div class="form-group">
+                                                       <label class="mr-sm-2" for="inlineFormCustomSelect">Choose Platform:</label><br/>
+                                                       <select class="custom-select mr-sm-2 w-50" id="inlineFormCustomSelect">
+                                                         <option selected>Choose...</option>
+                                                         <option value="1">GoDaddy</option>
+                                                         <option value="2">Namejet</option>
+                                                         <option value="3">SnapNames</option>
+                                                         <option value="4">DropCatch</option>
+                                                         <option value="5">Dynadot</option>
+                                                       </select>
+                                                     </div>
+                                                       <button type="button" name="button" class="btn btn-primary btn-lg btn-block w-50">Go</button>
+
+                                                   </form>
+
+
+                                                </div>
+
+                                              </div>
 
 
                                            </div>
