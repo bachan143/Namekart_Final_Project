@@ -119,6 +119,66 @@
 
                                            </div>
                                            <div class="col-md-9">
+                                               <h3>Platform Settings</h3>
+                                                <div class="row" id="platform-setting">
+                                                  <div class="col-m-12">
+                                                    <form class="" action="#" method="post">
+                                                      <div class="form-group">
+                                                        <label class="mr-sm-2" for="inlineFormCustomSelect">Choose Platform:</label><br/>
+                                                        <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                                                          <option selected>Choose...</option>
+                                                          <option value="1">GoDaddy</option>
+                                                          <option value="2">Namejet</option>
+                                                          <option value="3">SnapNames</option>
+                                                          <option value="4">DropCatch</option>
+                                                          <option value="5">Dynadot</option>
+                                                        </select>
+                                                      </div>
+                                                      <div class="form-group">
+                                                        <label for="username">UserName:</label>
+                                                        <input type="text" name="" value="" class="form-control">
+
+                                                      </div>
+                                                      <div class="form-group">
+                                                        <label for="username">Password:</label>
+                                                        <input type="text" name="" value="" class="form-control">
+
+                                                      </div>
+                                                      <div class="form-group">
+                                                        <label for="username">API Key:</label>
+                                                        <input type="text" name="" value="" class="form-control">
+
+                                                      </div>
+                                                      <button type="button" name="button" class="btn btn-primary btn-lg btn-block">SAVE</button>
+
+                                                    </form>
+
+                                                  </div>
+
+                                                </div>
+                                                  <div class="row">
+                                                     <h3>Display Setting</h3>
+                                                      <div class="col-m-12"  id="platform-setting1">
+                                                         <form class="" action="#" method="post">
+                                                           <div class="form-group">
+                                                             <label class="mr-sm-2" for="inlineFormCustomSelect">Choose Platform:</label><br/>
+                                                             <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                                                               <option selected>Choose...</option>
+                                                               <option value="1">GoDaddy</option>
+                                                               <option value="2">Namejet</option>
+                                                               <option value="3">SnapNames</option>
+                                                               <option value="4">DropCatch</option>
+                                                               <option value="5">Dynadot</option>
+                                                             </select>
+                                                           </div>
+
+
+
+                                                         </form>
+
+                                                      </div>
+
+                                                  </div>
 
 
                                            </div>

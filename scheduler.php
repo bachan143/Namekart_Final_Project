@@ -63,10 +63,10 @@
                                                  <a href="Auctions.php" class="nav-link ">Auction</a>
                                                </li>
                                                <li class="nav-item">
-                                                 <a href="Featured.php" class="nav-link ">Backorders</a>
+                                                 <a href="Backorder.php" class="nav-link ">Backorders</a>
                                                </li>
                                                <li class="nav-item">
-                                                 <a href="Download.php" class="nav-link">Settings</a>
+                                                 <a href="Settings.php" class="nav-link">Settings</a>
                                                </li>
 
                                                <li class="nav-item">

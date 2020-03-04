@@ -127,105 +127,93 @@
 
                                        </div>
                                        <div class="col-md-9">
-                                                <h3>My Auctions</h3>
-                                          <div class="row">
-                                              <div class="col-md-12">
-                                                <ul class="nav nav-tabs" id="myTab" role="tablist">
-                                                    <li class="nav-item">
-                                                      <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">ViewAll</a>
-                                                    </li>
-                                                    <li class="nav-item">
-                                                      <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Today Only</a>
-                                                    </li>
+                                           <h2>My Backorders</h2>
+                                           <div class="row">
+                                               <div class="col-md-12">
+                                                   <div class="quick-backorder" id="quick-backorder" style="width:100%;
+                                                   height:200px;
+                                                   background:#008000;
+                                                   border: 1px solid #008000;
+                                                   color: white;">
+                                                    <h3 class="mt-3 pl-3">Quick Backorder</h3>
+                                                      <form class="pl-5" action="#" method="post">
+                                                        <div class="formgroup">
+                                                          <input type="text" name="" value="" class="form-control w-50 " placeholder="Domain Name" >
+                                                          <input type="text" name="" value="" class="form-control w-25 mt-1" placeholder="Optional Bid" >
+                                                            <button class="btn btn-primary mt-1" type="submit">Order</button>
 
-                                                  </ul>
-
-                                              </div>
-                                              <div  id="" style="height:50px;border:1px solid  #33cc33; background:#009900; width:98%;">
-
-
-                                                <p class="pt-3 pl-3"><a href="#"  style="border:1px solid #6666ff;background:#6666ff; color:white;font-weight: bold;">Bid on Selected</a></p>
-
-                                              </div>
+                                                        </div>
 
 
-                                              <div class="mainpart_table">
-                                                 <div class="container">
-                                                    <div class="row justify-content center">
-                                                       <div class="col-sm-12 bg-light rounded my-2 py-2 table-responsive">
+                                                      </form>
+
+                                                   </div>
 
 
-                                                             <table class="table table-bordered table-striped table-hover table-sm" id="example1">
-                                                             <thead id="table_anchor">
-                                                               <tr >
-                                                                 <th></th>
-                                                                 <th>   <a href="#">Platform</a></th>
+                                               </div>
 
-                                                                 <th>   <a href="#">Domain</a></th>
-                                                                 <th>  <a href="#">Type</a></th>
-                                                                 <th> <a href="#">   Bidders</a> </th>
-                                                                 <th>  <a href="#">TimeLeft</a></th>
-                                                                 <th> <a href="#">High Bid</a</th>
-                                                                 <th> <a href="#">My Prst.Bid</a></th>
+                                           </div>
+                                           <div  id="" style="height:50px;border:1px solid  #33cc33; background:#009900; width:98%; margin-top:10px;">
 
-                                                               </tr>
-                                                             </thead>
-                                                                <tbody>
 
-                                                                   <tr id="table_anchor1">
-                                                                      <td></td>
-                                                                      <td>  </td>
-                                                                      <td>  </td>
-                                                                      <td> </td>
-                                                                      <td> </td>
-                                                                      <td> </td>
-                                                                      <td> </td>
-                                                                      <td> </td>
+                                             <p class="pt-3 pl-3"><a href="#"  style="border:1px solid #6666ff;background:#6666ff; color:white;font-weight: bold;">Update Selected</a></p>
 
-                                                                   </tr>
+                                           </div>
+                                           <div class="mainpart_table">
+                                              <div class="container">
+                                                 <div class="row justify-content center">
+                                                    <div class="col-sm-12 bg-light rounded my-2 py-2 table-responsive">
 
-                                                                </tbody>
 
-                                                             </table>
-                                                       </div>
+                                                          <table class="table table-bordered table-striped table-hover table-sm" id="example">
+                                                          <thead id="table_anchor">
+                                                            <tr >
+                                                              <th></th>
+                                                                <th>   <a href="#">Domain</a></th>
+                                                              <th>  <a href="#">Platform(GNSHD)</a></th>
 
 
 
+                                                              <th> <a href="#">   Bidders</a> </th>
+                                                              <th>  <a href="#">Deadline</a></th>
+
+
+                                                            </tr>
+                                                          </thead>
+                                                             <tbody>
+
+                                                                <tr id="table_anchor1">
+                                                                   <td></td>
+                                                                   <td>  </td>
+                                                                   <td>  </td>
+                                                                   <td> </td>
+                                                                   <td> </td>
+
+
+                                                                </tr>
+
+                                                             </tbody>
+
+                                                          </table>
                                                     </div>
+
+
 
                                                  </div>
 
-                                   </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                              <div  id="" style="height:50px;border:1px solid  #33cc33; background:#009900; width:98%;">
-
-
-                                                <p class="pt-3 pl-3"><a href="#"  style="border:1px solid #6666ff;background:#6666ff; color:white;font-weight: bold;">Bid on Selected</a></p>
-
                                               </div>
 
-                                          </div>
+                                </div>
+
+
+                                           <div  id="" style="height:50px;border:1px solid  #33cc33; background:#009900; width:98%; margin-top:10px;">
+
+
+                                             <p class="pt-3 pl-3"><a href="#"  style="border:1px solid #6666ff;background:#6666ff; color:white;font-weight: bold;">Update Selected</a></p>
+                                             <a href="#" style="color:white;">Remove Selected</a>
+
+                                           </div>
+
 
 
                                        </div>
@@ -242,57 +230,11 @@
 
 
 
-              <div class="footer" id="footer">   <!--Footer-->
-                <hr>
-
-                <div class="row">
-                  <div class="col-md-6">
-                               <h5>© 2020 Nameket, All rights reserved.</h5>
-                               <a href="#">Terms | </a>
-                               <a href="#">Privacy |  </a>
-                               <a href="#">Cookie Policy</a>
-                               <img src="domain.gif" alt="" style="text-align:center">
-                  </div>
-                  <div class="col-md-6" style="text-align:right;">
-                    <a href="index.php">Home| </a>
-                     <a href="Press-releases.php">Press Releases | </a>
-                      <a href="About.php">About Us| </a>
-                       <a href="Contact_Us.php">Contact Us| </a>
-                        <a href="Help_Center.php">Help| </a>
-                        <a href="SiteMap.php">Site Map</a>
-                           <h6>Questions?Call Us At</h6>
-                           <h5>1-866-462-3572</h5>
-                           <p>Visit our<a href=""> Help Center</a> for simple and quick support.</p>
-                  </div>
-
-                </div>
-
-              </div>  <!-- End Footer-->
-
-
-
-
-
-
-
-
-
-
-
-
-    </div>
-    </div>
-
-
-
-
-
-
 
     <script type="text/javascript">
                 $(document).ready(function()
                 {
-                var table=$('#example1').DataTable(
+                var table=$('#example').DataTable(
                     {
 
                     });

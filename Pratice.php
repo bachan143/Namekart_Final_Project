@@ -44,7 +44,7 @@
                                          <a href="Auctions.php" class="nav-link ">Auction</a>
                                        </li>
                                        <li class="nav-item">
-                                         <a href="Featured.php" class="nav-link ">Backorders</a>
+                                         <a href="Backorder.php" class="nav-link ">Backorders</a>
                                        </li>
                                        <li class="nav-item">
                                          <a href="Download.php" class="nav-link">Settings</a>
@@ -100,123 +100,89 @@
 
                                    </div>
                                    <div class="col-md-9">
-                                            <h3>My Auctions</h3>
-                                      <div class="row">
-                                          <div class="col-md-12">
-                                            <ul class="nav nav-tabs" id="myTab" role="tablist">
-                                                <li class="nav-item">
-                                                  <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">ViewAll</a>
-                                                </li>
-                                                <li class="nav-item">
-                                                  <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Today Only</a>
-                                                </li>
+                                       <h2>My Backorders</h2>
+                                       <div class="row">
+                                           <div class="col-md-12">
+                                               <div class="quick-backorder" id="quick-backorder" style="width:100%;
+                                               height:200px;
+                                               background:#008000;
+                                               border: 1px solid #008000;
+                                               color: white;">
+                                                <h3 class="mt-3 pl-3">Quick Backorder</h3>
+                                                  <form class="pl-5" action="#" method="post">
+                                                    <div class="formgroup">
+                                                      <input type="text" name="" value="" class="form-control w-50 " placeholder="Domain Name" >
+                                                      <input type="text" name="" value="" class="form-control w-25 mt-1" placeholder="Optional Bid" >
+                                                        <button class="btn btn-primary mt-1" type="submit">Order</button>
 
-                                              </ul>
-
-                                          </div>
-                                          <div  id="" style="height:50px;border:1px solid  #33cc33; background:#009900; width:98%;">
-
-
-                                            <p class="pt-3 pl-3"><a href="#"  style="border:1px solid #6666ff;background:#6666ff; color:white;font-weight: bold;">Bid on Selected</a></p>
-
-                                          </div>
+                                                    </div>
 
 
-                                          <div class="mainpart_table">
-                                             <div class="container">
-                                                <div class="row justify-content center">
-                                                   <div class="col-sm-12 bg-light rounded my-2 py-2 table-responsive">
+                                                  </form>
+
+                                               </div>
 
 
-                                                         <table class="table table-bordered table-striped table-hover table-sm" id="example1">
-                                                         <thead id="table_anchor">
-                                                           <tr >
-                                                             <th></th>
-                                                             <th>   <a href="#">Domain</a></th>
-                                                             <th>  <a href="#">Type</a></th>
-                                                             <th> <a href="#">   Bidders</a> </th>
-                                                             <th>  <a href="#">   My Bid</a></th>
-                                                             <th> <a href="#">Min. Bid</a</th>
-                                                             <th> <a href="#">  Current Bid</a></th>
-                                                             <th> <a href="#">Closing Time</a> </th>
-                                                           </tr>
-                                                         </thead>
-                                                            <tbody>
-                                                               <?php
-                                                                 $conn=mysqli_connect("localhost","root","root","namejet");
-                                                                 if(!$conn)
-                                                                     die("connection failed".mysqli_connect_error());
-                                                                     error_reporting(E_ALL & ~E_NOTICE);
-                                                                       $sql="select domain_name,type,Bidders,My_Bid, Min_Bid,Current_Bid,Closing_Time from search";
+                                           </div>
+
+                                       </div>
+                                       <div  id="" style="height:50px;border:1px solid  #33cc33; background:#009900; width:98%; margin-top:10px;">
+
+
+                                         <p class="pt-3 pl-3"><a href="#"  style="border:1px solid #6666ff;background:#6666ff; color:white;font-weight: bold;">Bid on Selected</a></p>
+
+                                       </div>
+                                       <div class="container">
+                                          <div class="row justify-content center">
+                                             <div class="col-sm-12 bg-light rounded my-2 py-2 table-responsive">
+
+
+                                                   <table class="table table-bordered table-striped table-hover table-sm" id="example1">
+                                                   <thead id="table_anchor">
+                                                     <tr >
+                                                       <th></th>
+                                                       <th>   <a href="#">Domain</a></th>
+                                                       <th>   <a href="#">Platform(GNSHD)</a></th>
 
 
 
+                                                       <th> <a href="#">   Bidders</a> </th>
+                                                       <th>  <a href="#">Deadline</a></th>
 
 
+                                                     </tr>
+                                                   </thead>
+                                                      <tbody>
+
+                                                         <tr id="table_anchor1">
+                                                            <td></td>
+                                                            <td>  </td>
+                                                            <td>  </td>
+                                                            <td> </td>
+                                                            <td> </td>
+                                                            <td> </td>
 
 
-                                                                 $res=mysqli_query($conn,$sql);
-                                                                 if(mysqli_num_rows($res)>0)
-                                                                 {
+                                                         </tr>
 
-                                                                 while($row=mysqli_fetch_assoc($res)){
-                                                               ?>
-                                                               <tr id="table_anchor1">
-                                                                  <td></td>
-                                                                  <td> <a href="#">  <?= $row['domain_name'] ?> </a> </td>
-                                                                  <td><?= $row['type']  ?>  </td>
-                                                                  <td><?= $row['Bidders']  ?> </td>
-                                                                  <td>$<?= $row['My_Bid']  ?> </td>
-                                                                  <td>$<?= $row['Min_Bid']  ?> </td>
-                                                                  <td>$<?= $row['Current_Bid']  ?>R </td>
-                                                                  <td><?= $row['Closing_Time']  ?> </td>
+                                                      </tbody>
 
-                                                               </tr>
-                                                               <?php }}
-
-                                                                ?>
-                                                            </tbody>
-
-                                                         </table>
-                                                   </div>
-
-
-
-                                                </div>
-
+                                                   </table>
                                              </div>
 
-                               </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                          <div  id="" style="height:50px;border:1px solid  #33cc33; background:#009900; width:98%;">
-
-
-                                            <p class="pt-3 pl-3"><a href="#"  style="border:1px solid #6666ff;background:#6666ff; color:white;font-weight: bold;">Bid on Selected</a></p>
 
                                           </div>
 
-                                      </div>
+                                       </div>
+
+                                       <div  id="" style="height:50px;border:1px solid  #33cc33; background:#009900; width:98%; margin-top:10px;">
+
+
+                                         <p class="pt-3 pl-3"><a href="#"  style="border:1px solid #6666ff;background:#6666ff; color:white;font-weight: bold;">Bid on Selected</a></p>
+
+                                       </div>
+
 
 
                                    </div>
@@ -273,39 +239,13 @@
 
 </div>
 </div>
-
-
-
-
-
-
-
 <script type="text/javascript">
-            $(document).ready(function()
-            {
-            var table=$('#example1').DataTable(
-                {
+    $(document).ready(function()
+    {
+    var table=$('#example1').DataTable(
+        {
 
-                });
+        });
+    });
 
-                // Check box Selected
-
-
-
-                          // Handle form submission event
-
-
-
-
-
-
-
-
-
-
-
-
-
-            });
-
-   </script>
+</script>
