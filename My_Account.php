@@ -36,13 +36,13 @@
                           </div>
 
                         </div>           <!-- end domain name -->
-                       <div id="head-second" class="row">    <!--indian flag-->
+                       <!-- <div id="head-second" class="row">
                          <div class="col-md-12">
                            <img src="namejet1.png" class="img-thumbnail" alt="">
 
                          </div>
 
-                       </div>   <!--end indian flag-->
+                       </div>    -->
                        <!-- Start NavigationBar -->
                        <div class="row">
                              <div class="col-md-4">     <!--  Logo start -->
@@ -53,7 +53,7 @@
 
                              </div>
                              <div class="col-md-8 pt-2">
-                                 <nav class="navbar navbar-expand-lg navbar-dark mainnav" style="background-color:#4775d1;">
+                                 <nav class="navbar navbar-expand-lg navbar-dark mainnav" style="background-color:#0d78a9;">
                                    <button type="button" name="button" class="navbar-toggler" data-toggle="collapse" data-target="#myMenu">
                                      <span class="navbar-toggler-icon"></span>
                                        </button>
@@ -82,7 +82,7 @@
                                           <div class="col-md-8 mt-2">
                                             <form class="form-inline col s12" action="/action_page.php">
                                          <input class="form-control col s12 16 mr-sm-2" type="text" placeholder="Search Domains">
-                                            <button class="btn btn-success" type="submit">Search</button>
+                                            <button class="btn btn-success" type="submit" style="background:#0d78a9;color:white">Search</button>
                                              </form>
 
                                           </div>
@@ -112,7 +112,7 @@
                                                <a href="scheduler.php">Scheduler</a>
                                                <a href="Watchlist.php">WatchList</a>
                                                <a href="Bidding.php">Bidding</a>
-                                               <a href="Bulk_Actions.WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU">BulkActions</a>
+                                               <a href="Bulk_Actions.php">BulkActions</a>
                                                  <a href="Reports.php">Reports</a>
                                                    <a href="Logs.php">Logs</a>
                                              </div>
@@ -122,10 +122,10 @@
                                              <h1>MyAccount Detalis</h1>
                                                 <div class="row">
                                                   <div class="col-md-12">
-                                                    <button type="button" name="button" class="btn btn-primary btn-lg  w-25">
+                                                    <button type="button" name="button" class="btn  btn-lg  w-25" style="background:#0d78a9;color:white;">
                                                       <a href="#" style="color:white;text-decoration:none;">Manage User</a>
                                                     </button>
-                                                    <button type="button" name="button" class="btn btn-success btn-lg  w-25">
+                                                    <button type="button" name="button" class="btn  btn-lg  w-25" style="background:#0d78a9;color:white;">
                                                       <a href="#" style="color:white;text-decoration:none;">Add new</a>
                                                     </button>
 
@@ -136,7 +136,7 @@
                                                 </div>
                                               <div class="row mt-5">
                                                 <div class="col-md-12">
-                                                  <table class="table table-dark">
+                                                  <table class="table" style="background:#0d78a9;color:white;">
                                                            <thead>
                                                              <tr>
                                                                <th scope="col">#</th>
@@ -168,7 +168,7 @@
 
                                               <div class="row">
                                                 <div class="col-md-12">
-                                                  <h1 style="text-align:center;color:red;">Change Detalis</h1>
+                                                  <h1 style="text-align:center;color:#0d78a9;">Change Detalis</h1>
                                                   <form class="" action="#" method="post">
                                                     <div class="form-group">
                                                       <label for="">Name:</label>
@@ -190,7 +190,7 @@
                                                       <input type="text" name="" value="" class="form-control w-50">
 
                                                     </div>
-                                                    <button type="button" name="button" class="btn btn-primary btn-lg w-50 btn-block">Submit</button>
+                                                    <button type="button" name="button" class="btn btn-lg w-50 btn-block" style="background:#0d78a9;color:white;">Submit</button>
 
                                                   </form>
 

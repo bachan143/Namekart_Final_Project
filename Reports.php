@@ -44,13 +44,13 @@
                       </div>
 
                     </div>           <!-- end domain name -->
-                   <div id="head-second" class="row">    <!--indian flag-->
+                   <!-- <div id="head-second" class="row">
                      <div class="col-md-12">
                        <img src="namejet1.png" class="img-thumbnail" alt="">
 
                      </div>
 
-                   </div>   <!--end indian flag-->
+                   </div>    -->
                    <!-- Start NavigationBar -->
                    <div class="row">
                          <div class="col-md-4">     <!--  Logo start -->
@@ -61,7 +61,7 @@
 
                          </div>
                          <div class="col-md-8 pt-2">
-                             <nav class="navbar navbar-expand-lg navbar-dark mainnav" style="background-color:#4775d1;">
+                             <nav class="navbar navbar-expand-lg navbar-dark mainnav" style="background-color:#0d78a9;">
                                <button type="button" name="button" class="navbar-toggler" data-toggle="collapse" data-target="#myMenu">
                                  <span class="navbar-toggler-icon"></span>
                                    </button>
@@ -90,7 +90,7 @@
                                       <div class="col-md-8 mt-2">
                                         <form class="form-inline col s12" action="/action_page.php">
                                      <input class="form-control col s12 16 mr-sm-2" type="text" placeholder="Search Domains">
-                                        <button class="btn btn-success" type="submit">Search</button>
+                                        <button class="btn btn-success" type="submit" style="background:#0d78a9;color:white">Search</button>
                                          </form>
 
                                       </div>
